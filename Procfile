@@ -1,0 +1,1 @@
+web: python bitget_trade_bot_demo.py

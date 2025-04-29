@@ -1,0 +1,2 @@
+flask
+git+https://github.com/BitgetLimited/v3-bitget-api-sdk-python.git
