@@ -4,9 +4,9 @@ from bitget.rest_client import BitgetRestClient
 app = Flask(__name__)
 
 # === CONFIGURATION ===
-API_KEY = "TA_CLE_API_BITGET"
-API_SECRET = "TA_CLE_SECRET"
-PASSPHRASE = "TA_PHRASE_SECRET"
+API_KEY = "bg_74446a29ec26e83c82bd18e1122dd5eb"
+API_SECRET = "4cdd1eeab6e80ffee8bde2ccfe6c0a0c5d296a54c68d29613d6df5042248d05a"
+PASSPHRASE = "mysecurebot99"
 BASE_URL = "https://api.bitget.com"
 
 client = BitgetRestClient(api_key=API_KEY, api_secret=API_SECRET, passphrase=PASSPHRASE, use_server_time=True, base_url=BASE_URL)
